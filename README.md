@@ -2,7 +2,7 @@
 # Portfolio Correlation Analysis Tool
 
 ## Overview
-This repository contains tools for analyzing financial securities with a focus on correlation analysis. The `manual-correlations.py` script helps identify groups of securities with minimal correlation, useful for portfolio diversification.
+This repository contains tools for analyzing financial securities with a focus on correlation analysis. The `correlations.py` script helps identify groups of securities with minimal correlation, useful for portfolio diversification.
 
 ## Dependencies
 To run the scripts in this repository, you'll need the following Python packages:
@@ -16,9 +16,9 @@ You can install the required packages using pip:
 pip install pandas numpy yfinance
 ```
 
-## How manual-correlations.py Works
+## How correlations.py Works
 
-The `manual-correlations.py` script analyzes correlations between different securities using historical price data from Yahoo Finance. It helps identify groups of securities that have low correlation with each other, which is valuable for portfolio diversification.
+The `correlations.py` script analyzes correlations between different securities using historical price data from Yahoo Finance. It helps identify groups of securities that have low correlation with each other, which is valuable for portfolio diversification.
 
 ### Key Features:
 1. Downloads historical price data for a list of securities
@@ -45,7 +45,7 @@ The script uses a Monte Carlo approach to find the least correlated group of sec
 
 Simply execute the script using Python:
 ```
-python manual-correlations.py
+python correlations.py
 ```
 
 ### Customization:
